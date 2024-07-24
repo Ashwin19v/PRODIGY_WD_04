@@ -66,11 +66,16 @@ body {
 }
 
 #weather-icon {
+  padding: 15px;
+  transition: all 0.3s;
   width: 100px;
   height: 100px;
   margin: 20px 0;
 }
-
+#weather-icon:hover {
+  border-radius: 50%;
+  border: 10px solid #79a1e7;
+}
 #city-name {
   font-size: 24px;
   margin-bottom: 10px;
